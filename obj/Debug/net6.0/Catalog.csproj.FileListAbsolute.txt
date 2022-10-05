@@ -41,3 +41,6 @@ C:\Users\lmgoz\source\repos\Catalog\bin\Debug\net6.0\runtimes\win\native\snappy6
 C:\Users\lmgoz\source\repos\Catalog\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\lmgoz\source\repos\Catalog\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\lmgoz\source\repos\Catalog\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\lmgoz\source\repos\Catalog\bin\Debug\net6.0\HealthChecks.MongoDb.dll
+C:\Users\lmgoz\source\repos\Catalog\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\lmgoz\source\repos\Catalog\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
