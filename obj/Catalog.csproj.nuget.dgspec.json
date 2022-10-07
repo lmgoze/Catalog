@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lmgoz\\source\\repos\\Catalog\\Catalog.csproj": {}
+    "C:\\Users\\lmgoz\\source\\repos\\CatalogAssignment\\Catalog\\Catalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lmgoz\\source\\repos\\Catalog\\Catalog.csproj": {
+    "C:\\Users\\lmgoz\\source\\repos\\CatalogAssignment\\Catalog\\Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lmgoz\\source\\repos\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "C:\\Users\\lmgoz\\source\\repos\\CatalogAssignment\\Catalog\\Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "C:\\Users\\lmgoz\\source\\repos\\Catalog\\Catalog.csproj",
+        "projectPath": "C:\\Users\\lmgoz\\source\\repos\\CatalogAssignment\\Catalog\\Catalog.csproj",
         "packagesPath": "C:\\Users\\lmgoz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lmgoz\\source\\repos\\Catalog\\obj\\",
+        "outputPath": "C:\\Users\\lmgoz\\source\\repos\\CatalogAssignment\\Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

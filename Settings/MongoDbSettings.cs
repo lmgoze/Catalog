@@ -1,3 +1,4 @@
+//This is MongoDb Settings
 namespace Catalog.Settings
 {
     public class MongoDbSettings
