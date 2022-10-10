@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mk6why+XjQI8TeIZXmFFwz4rTxQid4qVlpUPmI2PUsr5OYq4H3XARSGUBFQhCx8aX3KXq6rRl4+bxpQHxcIa9g==",
+  "dgSpecHash": "UcA/qOpVBvOYwe1zNFWAuXN5liVa3a+lCnfsjp5KNNfvk4lCkcqyOmGWswH3RBhE8lrBkw2XTdR6iQPxHD4qyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lmgoz\\source\\repos\\CatalogAssignment\\Catalog\\Catalog.csproj",
+  "projectFilePath": "C:\\Users\\lmgoz\\source\\repos\\Catalog\\Catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lmgoz\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\6.0.2\\aspnetcore.healthchecks.mongodb.6.0.2.nupkg.sha512",
     "C:\\Users\\lmgoz\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
