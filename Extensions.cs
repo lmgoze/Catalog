@@ -10,8 +10,12 @@ namespace Catalog
            return new ItemDto
             {
                 Id = item.Id,
-                Name = item.Name,
-                Price = item.Price,
+                FirstName = item.FirstName,
+                LastName = item.LastName,
+                Email = item.Email,
+                PhoneNumber = item.PhoneNumber,
+                Address = item.Address,
+                ZipCode = item.ZipCode,               
                 CreatedDate = item.CreatedDate
             };
         }

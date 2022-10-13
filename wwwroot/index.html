@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+    <h1>Schedule</h1>
+    <h3>Add New Customer</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <p>
+          <input type="text" id="add-fname" placeholder="First Name">
+          <input type="text" id="add-lname" placeholder="Last Name">
+        </p>
+        <p>
+          <input type="text" id="add-email" placeholder="xxxx@Email.com">
+          <input type="text" id="add-phone" placeholder="Phone Number">
+        </p>
+        <p>
+          <input type="text" id="add-address" placeholder="Address">
+        </p>
+        <p>
+            <input type="text" id="add-zipCode" placeholder="Zip Code">
+          </p>
+        <input type="submit" value="Add">
+    </form>
+
+    <div id="editForm" class="hello">
+        <h3>Edit Customer</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-fname">
+            <input type="text" id="edit-lname">
+            <input type="text" id="edit-email">
+            <input type="text" id="edit-phone">
+            <input type="text" id="edit-address">
+            <input type="text" id="edit-zipCode">
+            <input type="submit" value="Save">
+            <!-- <a onclick="closeInput()" aria-label="Close">&#10006;</a> -->
+            <button onclick="closeInput()">Close</button>
+        </form>
+    </div>
+
+    <p id="counter"> </p>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Address</th>
+            <th>Zip Code</th>
+        </tr>
+        </thead>
+        <tbody id="todos">
+        </tbody>
+    </table>
+
+    <script src="site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+    
+</body>
+</html>

@@ -90,3 +90,4 @@ C:\Users\lmgoz\source\repos\CatalogAssignment\Catalog\obj\Debug\net6.0\refint\Ca
 C:\Users\lmgoz\source\repos\CatalogAssignment\Catalog\obj\Debug\net6.0\Catalog.pdb
 C:\Users\lmgoz\source\repos\CatalogAssignment\Catalog\obj\Debug\net6.0\Catalog.genruntimeconfig.cache
 C:\Users\lmgoz\source\repos\CatalogAssignment\Catalog\obj\Debug\net6.0\ref\Catalog.dll
+C:\Users\lmgoz\source\repos\Catalog\bin\Debug\net6.0\Catalog.staticwebassets.runtime.json

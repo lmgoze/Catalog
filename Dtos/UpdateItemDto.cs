@@ -5,10 +5,14 @@ namespace Catalog.Dtos
     public record UpdateItemDto
     {
        [Required]
-       public string Name { get; init; }
-        [Required]
-        [Range(1, 1000)]
-        public decimal Price { get; init; }
+       public string FirstName { get; init; }
+
+       [Required]
+       public string LastName { get; init; } 
+       public string Email { get; init; }
+       public string PhoneNumber { get; init; }
+       public string Address { get; init; }
+       public string ZipCode { get; init; }
     }
 
 }

@@ -75,6 +75,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 // Run inside the docker container the ASP net environment switches from development to production.
 if (app.Environment.IsDevelopment())
 {
