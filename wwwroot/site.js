@@ -8,13 +8,36 @@ function getItems() {
     .catch(error => console.error('Unable to get items.', error));
 }
 
+function validateFunction() {
+  let fname = document.getElementById("add-fname").value;
+  let lname = document.getElementById("add-lname").value;
+  //submitOK = "true";
+
+  if (fname.length > 20) {
+    alert("The First Name may have no more than 20 characters");
+    //submitOK = "false";
+  } 
+  if (lname.length > 20) {
+    alert("The Last Name may have no more than 20 characters");
+    submitOK = "false";
+  } 
+
+  // if (submitOK == "false") {
+  //  return false;
+  // }
+
+}
+
 function addItem() {
+  
   const addFNameTextbox = document.getElementById('add-fname');
   const addLNameTextbox = document.getElementById('add-lname');
   const addEmailTextbox = document.getElementById('add-email');
   const addPhoneTextbox = document.getElementById('add-phone');
   const addAddressTextbox = document.getElementById('add-address');
   const addZipCodeTextbox = document.getElementById('add-zipCode');
+  
+  validateFunction();
 
   const item = {
     firstname: addFNameTextbox.value.trim(),
@@ -23,9 +46,7 @@ function addItem() {
     phonenumber: addPhoneTextbox.value.trim(),
     address: addAddressTextbox.value.trim(),
     zipcode: addZipCodeTextbox.value.trim(),
-
   };
-
   fetch(uri, {
     method: 'POST',
     headers: {
@@ -102,6 +123,7 @@ function updateItem() {
   closeInput();
   return false;
 }
+
 
 function closeInput() {
    document.getElementById('editForm').style.display = 'none';

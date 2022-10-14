@@ -2,40 +2,60 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Schedule</title>
+    <title>Housekeeping Schedule</title>
     <link rel="stylesheet" href="site.css" />
 </head>
 <body>
-    <h1>Schedule</h1>
+    <h1>Housekeeping Schedule</h1>
+    
     <h3>Add New Customer</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
         <p>
-          <input type="text" id="add-fname" placeholder="First Name">
-          <input type="text" id="add-lname" placeholder="Last Name">
+          <input type="text" id="add-fname" placeholder="First Name" required title="First Name is required">
+          <input type="text" id="add-lname" placeholder="Last Name" required title="Last Name is required">
         </p>
         <p>
-          <input type="text" id="add-email" placeholder="xxxx@Email.com">
-          <input type="text" id="add-phone" placeholder="Phone Number">
+          <input type="text" id="add-email" placeholder="xxxx@Email.com" title="Email is optional">
+          <input type="text" id="add-phone" placeholder="XXX-XXX-XXXX" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="000-000-0000">
         </p>
         <p>
-          <input type="text" id="add-address" placeholder="Address">
+          <input type="text" id="add-address" placeholder="Address" required size="46" required>
         </p>
         <p>
-            <input type="text" id="add-zipCode" placeholder="Zip Code">
+            <input type="text" id="add-zipCode" placeholder="Zip Code" required pattern="[0-9]{5}" title="Five digit zip code" size="5">
           </p>
+          <label for="times">Choose a time:</label>
+          <select name="times" id="times">
+          <option value="0800">8:00AM</option>
+          <option value="1300">1:00PM</option>
+          <option value="1500">3:00PM</option>
+          </select>  
         <input type="submit" value="Add">
     </form>
 
     <div id="editForm" class="hello">
         <h3>Edit Customer</h3>
         <form action="javascript:void(0);" onsubmit="updateItem()">
+            
             <input type="hidden" id="edit-id">
+            <p>
+            <label for="fname">First Name</label>
             <input type="text" id="edit-fname">
+            <label for="lname">Last Name</label>
             <input type="text" id="edit-lname">
+            </p>
+            <p>
+            <label for="email">Email</label>
             <input type="text" id="edit-email">
+            <label for="phone">Phone Number</label> 
             <input type="text" id="edit-phone">
+            </p>
+            <p>
+            <label for="address">Address</label>
             <input type="text" id="edit-address">
+            <label for="zipcode">Zip Code</label>
             <input type="text" id="edit-zipCode">
+            </p>
             <input type="submit" value="Save">
             <!-- <a onclick="closeInput()" aria-label="Close">&#10006;</a> -->
             <button onclick="closeInput()">Close</button>
@@ -52,11 +72,43 @@
             <th>Phone Number</th>
             <th>Address</th>
             <th>Zip Code</th>
+            <th></th>
+            <th></th>
         </tr>
         </thead>
         <tbody id="todos">
         </tbody>
     </table>
+
+    <h3>Schedule for
+        <script> document.write(new Date().toLocaleDateString()); </script></h3>
+
+<table>
+  <body>
+    <tr>
+      <th>08:00</th>
+      <td colspan="4" rowspan="2" class="">Route 1</td>
+      <td colspan="4" id="todos">Lisa Goze<script>let elements = document.getElementsByName("firstName");
+        document.getElementById("todos").innerHTML = elements[0].tagName;</script>
+      </td>
+    </tr>
+    <tr> 
+      <th>10:00</th>
+      <td colspan="4" class=""></span></td>
+    </tr>
+    <tr>
+      <th>12:00</th>
+      <td colspan="1" rowspan="1">Break</td>
+    </tr>
+    <tr>
+      <th>13:00</th>
+      <td colspan="4" rowspan="2">Route 2</td>
+    </tr>
+    <tr>
+      <th>15:00</th>
+    </tr>
+  </body>
+</table>
 
     <script src="site.js" asp-append-version="true"></script>
     <script type="text/javascript">

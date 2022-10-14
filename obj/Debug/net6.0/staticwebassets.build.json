@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tiYg8rQl1K9bEwOXELNDYkx1PByuK8AZjpxPEwcNm2A=",
+  "Hash": "HVVyUlxCJYnGM00f6YrTYtVEqeosMF6cwjHSlO/hxyo=",
   "Source": "Catalog",
   "BasePath": "_content/Catalog",
   "Mode": "Default",
@@ -32,6 +32,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\lmgoz\\source\\repos\\Catalog\\wwwroot\\nature.png",
+      "SourceId": "Catalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lmgoz\\source\\repos\\Catalog\\wwwroot\\",
+      "BasePath": "_content/Catalog",
+      "RelativePath": "nature.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\nature.png"
+    },
+    {
+      "Identity": "C:\\Users\\lmgoz\\source\\repos\\Catalog\\wwwroot\\print-pattern.png",
+      "SourceId": "Catalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lmgoz\\source\\repos\\Catalog\\wwwroot\\",
+      "BasePath": "_content/Catalog",
+      "RelativePath": "print-pattern.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\print-pattern.png"
     },
     {
       "Identity": "C:\\Users\\lmgoz\\source\\repos\\Catalog\\wwwroot\\site.css",
